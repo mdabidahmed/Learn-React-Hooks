@@ -1,15 +1,13 @@
-// import ParentComponent from './components/Hooks/useCallbackHook/ParentComponent';
-
-import ComponentA from './components/Hooks/useContextHook/componentA';
-import ComponentB from './components/Hooks/useContextHook/componentB';
+import UseEffectTypes from './components/Hooks/useEffectHook/useEffectTypes';
 
 function App() {
   return (
     <div className='App'>
       {/* <ParentComponent /> */}
       {/* <PropDrilling /> */}
-      <ComponentA />
-      <ComponentB />
+      {/* <ComponentA />
+      <ComponentB /> */}
+      <UseEffectTypes />
     </div>
   );
 }
