@@ -1,4 +1,4 @@
-import UseEffectTypes from './components/Hooks/useEffectHook/useEffectTypes';
+import UseStateComponent from './components/Hooks/useStateHook/useStateComponent';
 
 function App() {
   return (
@@ -7,7 +7,8 @@ function App() {
       {/* <PropDrilling /> */}
       {/* <ComponentA />
       <ComponentB /> */}
-      <UseEffectTypes />
+      {/* <UseEffectTypes /> */}
+      <UseStateComponent />
     </div>
   );
 }
