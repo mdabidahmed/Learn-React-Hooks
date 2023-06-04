@@ -1,4 +1,5 @@
-import UseIdHook from './components/Hooks/useIdHook/useIdhook';
+import MyComponentWithMemo from './components/Hooks/useMemo/withUseMemo';
+import MyComponentWithoutMemo from './components/Hooks/useMemo/withoutUseMemo';
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
       <ComponentB /> */}
       {/* <UseEffectTypes /> */}
       {/* <UseStateComponent /> */}
-      <UseIdHook />
+      {/* <ExpensiveApiCallComponent /> */}
+      <MyComponentWithoutMemo />
+      <MyComponentWithMemo />
     </div>
   );
 }

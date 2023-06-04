@@ -1,3 +1,6 @@
+* {
+  font-family: monospace;
+}
 .container {
   display: grid;
   place-items: center;
@@ -20,6 +23,7 @@ button {
 
   /* Button hover effect */
   transition: background-color 0.3s;
+  margin: 5px;
 }
 
 button:hover {
@@ -97,4 +101,67 @@ input[type='email']:focus {
 
 .submit-button:focus {
   outline: none;
+}
+
+.pokemon-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.pokemon-table th {
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 0.5rem;
+  text-align: left;
+  font-size: 24px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.pokemon-table td {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+  font-size: 18px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.pokemon-table tr:last-child td {
+  border-bottom: none;
+}
+
+.pokemon-table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #f2f2f2;
+  margin: 0 5% 2% 5%;
+}
+
+.column {
+  flex: 1;
+}
+
+.card-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 5%;
+}
+
+.card-container {
+  /* max-width: 500px; */
+  margin: 0 auto;
+  padding: 40px;
+  /* background-color: #f2f2f2; */
+  border-radius: 5px;
 }
