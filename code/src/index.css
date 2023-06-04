@@ -1,5 +1,7 @@
 .container {
-  margin: 20%;
+  display: grid;
+  place-items: center;
+  font-family: monospace;
 }
 
 button {
@@ -26,4 +28,73 @@ button:hover {
 
 p {
   font-weight: bold;
+}
+/* Form container */
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+/* Form title */
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Form fields */
+.form-field {
+  margin-bottom: 20px;
+}
+
+/* Label styles */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+/* Input styles */
+input[type='text'],
+input[type='email'] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+input[type='text']:focus,
+input[type='email']:focus {
+  outline: none;
+  border-color: #8c8c8c;
+}
+
+/* Submit button */
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.submit-button:focus {
+  outline: none;
 }

@@ -1,4 +1,4 @@
-import UseStateComponent from './components/Hooks/useStateHook/useStateComponent';
+import UseIdHook from './components/Hooks/useIdHook/useIdhook';
 
 function App() {
   return (
@@ -8,7 +8,8 @@ function App() {
       {/* <ComponentA />
       <ComponentB /> */}
       {/* <UseEffectTypes /> */}
-      <UseStateComponent />
+      {/* <UseStateComponent /> */}
+      <UseIdHook />
     </div>
   );
 }
