@@ -1,7 +1,7 @@
-import {useState} from 'react';
+import React from 'react';
 
 const UseStateComponent = () => {
-  const [todos, setTodos] = useState(['task 1', 'task 2', 'task 3']);
+  const [todos, setTodos] = React.useState(['task 1', 'task 2', 'task 3']);
   const addTodo = () => {
     setTodos([...todos, 'new todo']);
   };
